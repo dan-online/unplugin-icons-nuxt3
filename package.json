@@ -17,6 +17,7 @@
     "*.d.ts"
   ],
   "scripts": {
+    "build": "yarn prepack",
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
